@@ -22,6 +22,7 @@ class Dog
   def self.print_all
     @@all.each do |cane|
       puts cane.name
+    end
   end
 
   def save
